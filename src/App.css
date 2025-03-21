@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::selection{
+  background-color: rgba(15, 192, 15, 0.253);
+  color: rgb(36, 204, 36);
+}
