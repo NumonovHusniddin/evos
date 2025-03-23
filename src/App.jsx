@@ -59,6 +59,8 @@ import About from "./pages/about/About";
 import BrendLocation from "./pages/about/Brends/BrendLocation";
 import Contact from "./pages/contact/Contact";
 import BuyProduct from "./pages/Buy/BuyProduct";
+import NotFound from "./notFound/NotFound";
+import NotFoundChildren from "./notFound/NotFoundChildren";
 
 function App() {
   const {isLoading} = UseFetch()
@@ -288,9 +290,17 @@ function App() {
               element: <Choy/>
             }
           ]
+        },
+        {
+          path: "*",
+          element: <NotFoundChildren/>
         }
       ],
     },
+    {
+      path: "*",
+      element: <NotFound/>
+    }
   ]);
 
   return (
