@@ -2,7 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import Logo from "../../../public/imgs/Evos2.png";
-import Logo1 from "../../../public/imgs/Evos.png";
+import Logo1 from "../../../public/imgs/EVOS.png";
 import { ChevronUp, Sun, Moon } from "lucide-react";
 
 import { useTheme } from "../../hook/useTheme";
