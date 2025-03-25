@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import Logo from "../../../public/imgs/Evos2.png";
 import Logo1 from "../../../public/imgs/Evos.png";
-import { ShoppingCart, ChevronUp, Sun, Moon } from "lucide-react";
+import { ChevronUp, Sun, Moon } from "lucide-react";
 
 import { useTheme } from "../../hook/useTheme";
 
