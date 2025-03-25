@@ -2,7 +2,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { UseFetch } from "./hook/UseFetch";
 
-import MainBox from "./pages/mainbox/Mainbox";
+import MainBox from "./pages/mainbox/Mainbox.jsx";
 import NavbarLayout from "./layout/navbarLayout/NavbarLayout";
 import News from "./pages/news/News";
 import Filiallar from "./pages/filiallar/Filiallar";
