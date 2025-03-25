@@ -7,7 +7,7 @@ import { ChevronUp, Sun, Moon } from "lucide-react";
 
 import { useTheme } from "../../hook/useTheme";
 
-import "./NavbarLayout.css";
+import "./Navbarlayout.css";
 import {
   SignedIn,
   SignedOut,
