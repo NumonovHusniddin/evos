@@ -20,7 +20,7 @@ function NewFoods() {
             onClick={ToMenu}
             className="text-[30px] py-3 px-6 border rounded-lg border-green-700 text-green-700 hover:text-white hover:bg-green-700 transition-all duration-200"
           >
-            To&apos;liq menu
+            {t("menu")}
           </button>
         </article>
         <div className="grid grid-cols-4 gap-1 gap-y-6 gap-x-2 mb-5">
